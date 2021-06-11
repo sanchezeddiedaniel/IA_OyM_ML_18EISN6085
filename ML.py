@@ -1,3 +1,9 @@
+#THIS IS THE REALIZATION OF A PROGRAM BASED ON MACHINE LEARNING, SUPERVISED LEARNING BY APPLYING THE 
+#SKLEARN LIBRARY. WHICH DETERMINES BY AN ENTRY OF THE CHARACTERISTICS PRINT THE ANIMAL THAT IT IS. 
+#WHETHER IT IS A PIGEON, PENGUIN, COW OR MONKEY.
+
+
+
 #Realizar un programa basado en machine learning con
 #aprendizaje supervisado con la librería SKLEARN,
 #que pueda determinar mediante una entrada cual de
