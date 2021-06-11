@@ -1,14 +1,12 @@
-#THIS IS THE REALIZATION OF A PROGRAM BASED ON MACHINE LEARNING, SUPERVISED LEARNING BY APPLYING THE 
-#SKLEARN LIBRARY. WHICH DETERMINES BY AN ENTRY OF THE CHARACTERISTICS PRINT THE ANIMAL THAT IT IS. 
-#WHETHER IT IS A PIGEON, PENGUIN, COW OR MONKEY.
+# THIS IS THE REALIZATION OF A PROGRAM BASED ON MACHINE LEARNING, SUPERVISED LEARNING BY APPLYING THE SKLEARN LIBRARY.
+# WHICH DETERMINES BY AN ENTRY OF THE CHARACTERISTICS PRINT THE ANIMAL THAT IT IS. 
+# WHETHER IT IS A PIGEON, PENGUIN, COW OR MONKEY.
 
-
-
-#Realizar un programa basado en machine learning con
-#aprendizaje supervisado con la librería SKLEARN,
-#que pueda determinar mediante una entrada cual de
-#los siguientes animales es el indentificado:
-#Paloma, Pinguino, Vaca, Mono.
+# REALIZAR UN PROGRAMA BASADO EN MACHINE LEARNING CON
+# APRENDIZAJE SUPERVISADO CON LA LIBRERÍA SKLEARN,
+# QUE PUEDA DETERMINAR MEDIANTE UNA ENTRADA CUAL DE
+# LOS SIGUIENTES ANIMALES ES EL IDENTIFICADO:
+# PALOMA, PINGÜINO, VACA, MONO.
 
 #LIBRERIA SKLEARN CON ENTRENAMIENTO DE ARBOLES DE DECISION
 from sklearn import tree
@@ -25,7 +23,6 @@ ANIMALES = [["VACA"],["MONO"],["PINGUINO"],["MONO"],["VACA"],["PALOMA"],["PINGUI
 #ARBOL DE DECISION
 arbol = tree.DecisionTreeClassifier()
 arbol = arbol.fit(CAR,ANIMALES)
-
 
 #Metodo para la entrada de datos
 def entrada():
@@ -52,8 +49,6 @@ def entrada():
     except:
         os.system ("cls")
         #Si el OS es Unix/Linux/MacOS/BSD cambiar "cls" por "clear"
-        print("Error de Entrada, Ingrese Solo Numeros")
-        
+        print("Error de Entrada, Ingrese Solo Numeros")      
         return entrada()
-
 entrada()
