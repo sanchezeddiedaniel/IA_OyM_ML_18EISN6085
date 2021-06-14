@@ -42,10 +42,14 @@ def entrada():
         if SEL > 20:
             print("No selecciono ninguna caracteristica.")
             print("Vuelva Pronto...")
+        elif SEL < 1:
+            print("No selecciono ninguna caracteristica.")
+            print("Vuelva Pronto...")
         else:    
             QAE = arbol.predict([[SEL]])
             #imprimimos el resultado
             print(QAE)
+            
     except:
         os.system ("cls")
         #Si el OS es Unix/Linux/MacOS/BSD cambiar "cls" por "clear"
